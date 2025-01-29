@@ -1,0 +1,122 @@
+input{
+    box-shadow: 0 0 12px black;
+}
+.contact-us{
+    width: 100%;
+    display: flex;
+    font-family: 'Vazir';
+    background-color: #ccc;
+    box-shadow: 0 0 10px black;
+}
+.time-info{
+    width: 100%;
+    margin-top: 5rem;
+    padding: 1rem 3rem 1rem 1rem ;
+}
+
+.login-form{
+    background-color: #fff;
+    box-shadow: 0 0 10px black;
+    border-radius: 1rem;
+    margin-left: 2.5rem;
+}
+
+.login{
+    margin-top: 6rem;
+}
+.login-form > h3 {
+    display: flex;
+    justify-content: center
+}
+.title-login_form{
+    padding-top: 2rem;
+}
+
+.family-name{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    padding: 1.5rem;
+}
+
+
+.family-name > input {
+    width: 90%;
+    padding: .5rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none
+
+}
+
+.family-name > textarea {
+    max-width: 424px;
+    max-height: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.during-work{
+
+}
+
+.location-address{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.location-address > i > img{
+    width: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.location-address > p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.during-work > p {
+    font-size: 1.2rem;
+}
+
+.address-work{
+    padding-top: 1.5rem;
+}
+
+.address-work > span {
+    padding-right: 3.8rem;
+}
+
+iframe{
+    padding-top: 3rem;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+.btn-login{
+    padding: 1rem 0 2rem 1.5rem;
+}
+
+.modal-box{
+    width: 20rem;
+    height: 5rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    position: fixed;
+    top: 45%;
+    transform: translate(110% , -220%);
+    transition: all .5s ease;
+    z-index: 999;
+    padding: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-box > h2 {
+    color: white;
+}
+
+

@@ -1,0 +1,98 @@
+@import url("normalize.css");
+@import url("gridSystem.css");
+@import url("font.css");
+@import url("responsive.css");
+.footer{
+    width: 100%;
+    background-color: rgb(241, 237, 237);;
+    box-shadow: 0 0 5px black;
+    margin-top: 1rem;
+}
+
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Vazir';
+}
+.footer-img{
+
+}
+.social-icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.social-icons > p > span {
+    font-size: 1.3rem;
+    
+}
+.social-icons > p > span{
+    color: #0d5e0bb7;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0.5rem;
+    border: 50%;
+}
+.icons{
+    width: 2rem; /* اندازه دایره */
+    height: 2rem; /* اندازه دایره */
+    border-radius: 50%;
+    background-color: #dfc4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: .5rem;
+    transition: all .5s ease-in
+    
+}
+
+.icons:hover{
+    background-color: #2b9e27;
+    cursor: pointer;
+    transition: all .5s ease-in
+}
+.icon{
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.menu-links{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-link > li {
+    padding-bottom: 1rem;
+}
+.menu-link > li > a {
+    transition: all .5s ease-in;
+    color: black;
+}
+
+.menu-link > li > a:hover{
+    transition: all .5s ease-in;
+    color: #2b9e27;
+}
+
+.validity-img{
+
+}
+
+
+
+
+
+
+
+
+
+

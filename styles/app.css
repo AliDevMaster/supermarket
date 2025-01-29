@@ -1,0 +1,196 @@
+@import url("normalize.css");
+@import url("gridSystem.css");
+@import url("styles/fonts.css");
+@import url("footer.css");
+
+/* --Components-- */
+
+.btn{
+    transition: all 0.4s ease-in;
+    direction: ltr;
+    padding-left: 2rem;
+}
+
+.btn.btn:hover{
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+}
+
+.order-btn{
+    padding: 0.7rem 1.2rem;
+    border-radius: .5rem;
+    color: #fff;
+    font-family: "Vazir";
+    font-size: 14px;
+    background-color: #2b9e27;
+}
+
+.spread-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Vazir';
+}
+
+.fruits-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    border-radius: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px black;
+    margin-top: 6rem;
+}
+.fruits-img{
+   width: 380px;
+   height: 380px;
+   border-radius: 80%;
+}
+
+.text-title{
+    line-height: 1.6rem;
+    max-width: 100%;
+}
+
+.description-text{
+    text-align: justify;
+    direction: rtl;
+    padding-left: 1rem;
+}
+
+.fruits-container img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.fruits-container:hover img {
+    animation: bounce 0.6s ease-out;
+}
+
+.all-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e1f2cb;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0 2rem gray;
+    margin-top: 100px;
+    gap: 2.5rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+.product-item{
+    background-color: #f7f7f7;
+    box-shadow: 0 0 7px black;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: .8rem;
+}
+.img-product{
+    width: 9rem;
+}
+.details-product{
+    padding-right: 3rem;
+}
+.history-products{
+    font-size: .9rem;
+}
+.history-product{
+    margin: 1rem 0 1rem 0;
+}
+
+.history-product:nth-child(2){
+    margin-bottom: 0;
+}
+.btn-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.special-btn{
+    padding: 0.4rem;
+}
+
+.btn-withoutPadding{
+    padding: 0;
+}
+
+.order-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.delive-section{
+    background-color: #cac7c7;
+    box-shadow: 0 0 1rem rgb(221, 220, 220);
+    backdrop-filter: blur(1rem);
+}
+.delive-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.data-mall_place {
+    background: rgba(255, 255, 255, 0.2); /* ایجاد افکت شیشه‌ای */
+    backdrop-filter: blur(10px); /* مات کردن پس‌زمینه */
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* وسط چین کردن */
+    text-align: center;
+    opacity: 0.85; /* نمایش اولیه */
+    transition: opacity 1s ease-in-out;
+}
+
+.delive-places {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.delive-pictures:hover .data-mall_place {
+    transition: all .5s ease;
+    opacity: 0; /* محو شدن باکس هنگام هاور روی تصویر */
+}
+
+.delive-pictures{
+    position: relative;
+    display: inline-block;
+}
+.delive-picture{
+    width: 24rem;
+    border-radius: 7rem;
+}
+
+.delive-picture:hover{
+
+}
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+

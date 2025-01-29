@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contact.us.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <main-header></main-header>
+
+    <section>
+        <div class="modal-box">
+            <h2 class="succefuly-massage">موفقیت امیز بود</h2>
+        </div>
+        <div class="container">
+            <div class="contact-us">
+                <div class="time-info col-6">
+                    <div class="during-work">
+                        <p>ساعت کاری </p>
+                        <span>شنبه تا چهارشنبه ۹ الی ۱۷ و پنجشنبه ۹ الی ۱۲</span>
+                    </div>
+                    <div class="address-work">
+                        <div class="location-address">
+                            <i><img src="images/icon/map-point-wave-svgrepo-com.svg" alt=""></i>
+                            <p>ادرس</p>
+                        </div>
+                        <span>ساوه،مرزداران،ساختمان ایرانیان</span>
+                    </div>
+                    <div class="address-work phone-number_work">
+                        <div class="location-address">
+                            <i><img src="images/icon/contact-phone-talking-svgrepo-com.svg" alt=""></i>
+                            <p>تلفن تماس</p>
+                        </div>
+                        <span>۰۸۶۲۲۲۲۲۲۲۲</span>
+                    </div>
+                    <div class="address-work email-work">
+                        <div class="location-address">
+                            <i><img src="images/icon/email-svgrepo-com.svg" alt=""></i>
+                            <p>ایمیل پشتیبانی</p>
+                        </div>
+                        <span>noreplay@Site.com</span>
+                    </div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.587971378493!2d51.38914901467877!3d35.68919838019286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e015d5c0b84b1%3A0x1b2b3c1a4d5e2c7a!2sTehran!5e0!3m2!1sen!2s!4v1637224928084!5m2!1sen!2s"
+                        width="300" 
+                        height="200" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        padding-top="50px">
+                        
+                    </iframe>
+                </div>
+                <div class="login col-6  ">
+                    <div class="login-form">
+                        <h3 class="title-login_form">سبد بازار</h3>
+                        <div class="family-name">
+                            <span>نام و نام خانوادگی *</span>
+                            <input class="familyName" type="text" placeholder="نام و نام خانوادگی">
+                        </div>
+                        <div class="family-name">
+                            <span>موضوع پیام *</span>
+                            <input class="topicSub" type="text" placeholder="موضوع پیام">
+                        </div>
+                        <div class="family-name topic-name">
+                            <span>متن پیام*</span>
+                            <textarea class="text-sub"></textarea>
+                        </div>
+                        <div class="family-name area">
+                            <span>نحوه اطلاع رسانی ما به شما*</span>
+                            <input class="wayContact" list="cityList" id="cities" name="city">
+                                <datalist id="cityList">
+                                    <option value="تلفنی">
+                                    <option value="حضوری">
+                                    <option value="ایمیل">
+                                    <option value="پیامک">
+                                    <option value="تلگرام">
+                                </datalist>
+                        </div>
+                        <div class="btn btn-login">
+                            <a class="order-btn send-btn" href="#">ارسال</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main-footer></main-footer>
+    <script src="js/contact.us.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

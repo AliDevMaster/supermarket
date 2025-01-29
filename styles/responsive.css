@@ -1,0 +1,176 @@
+@media screen and (max-width:992px){
+    .nav-bar_list{
+        font-size: 14px;
+        gap: 1.7rem !important;
+    }
+    .icon > img{
+        width: 7rem !important;
+    }
+
+    .serch-box{
+        margin-left: 0 !important;
+        width: 10rem;
+    }
+
+    .serch-box::placeholder{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .nav__toggle-icon{
+        display: block;
+    }
+    .fruits-container{
+        display: none;
+    }
+    .text-title{
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .btn{
+        padding: 0;
+    }
+
+    .product-item{
+        flex-direction: column;
+    }
+    .details-product {
+        padding: 0;
+    }
+    .history-product{
+        font-size: .9rem;
+    }
+    .btn-product{
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .menu-links{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contact-us{
+        flex-direction: column-reverse;
+    }
+    .btn-login{
+        padding: 1rem 0 2rem 1.5rem;
+    }
+    .family-name > input,
+    .family-name > textarea {
+        width: 100%;
+    }
+    .time-info,
+    .login-form {
+        margin: 0;
+        padding: 1rem;
+    }
+    .login{
+        width: 100%;
+    }
+    .time-info{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block !important;
+        background-color: red; /* در موبایل دیده شود */
+    }
+
+    .nav-bar_list {
+        background-color: aquamarine;
+        display: flex !important;
+        align-items: start !important;
+        justify-content: start !important;
+        text-decoration: none;
+        gap: 2rem !important;
+        font-family: "Vazir";
+        padding-top: 4rem;
+        font-size: 18px;
+        position: fixed;
+        top: 0;
+        right: -100% !important; /* ابتدا مخفی باشد */
+        width: 60%;
+        height: 100vh;
+        background-color: #f8fcf8;
+        flex-direction: column !important;
+        transition: right 0.5s ease-out;
+        z-index: 1000;
+    }
+
+    .nav-bar_list--open {
+        right: 0 !important; /* وقتی باز شد، از راست به داخل بیاد */
+    }
+
+    .status{
+        display: none !important;
+    }
+
+    .nav-bar_list .close-submenu{
+        display: flex;
+    }
+
+    .header-bar{
+        width: 85%;
+    }
+    .product-item{
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+    .btn-product{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .list-items .submenu{
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg-header{
+        display: none;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .product-image{
+        display: flex;
+        justify-content: center
+    }
+    .menu-links{
+        padding: 1rem 0;
+    }
+    .delive-picture{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .icon > img {
+        display: none;
+    }
+
+    .nav .container .header-bar{
+        width: 75%;
+        display:block;
+    }
+
+    .serch-box{
+        width: 100%;
+    }
+
+    .special-btn  {
+        font-size: 12px;
+    }  
+
+    .history-product{
+        font-size: 12px;
+    }
+}
